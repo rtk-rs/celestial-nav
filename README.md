@@ -31,4 +31,6 @@ and project them into 3D.
 
 `Celestial-nav` depends on the following key elements:
 
-- `geo` for 2D and spatial calculations
+- `geo` for 2D coordinates
+- `nalgebra`: solver
+- `hifitime`: timing
