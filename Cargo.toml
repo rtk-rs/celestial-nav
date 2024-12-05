@@ -1,0 +1,32 @@
+[package]
+name = "celestial-nav"
+version = "0.0.1"
+license = "MPL-2.0"
+authors = ["Guillaume W. Bres <guillaume.bressaix@gmail.com>"]
+description = "Celestial navigation library"
+homepage = "https://github.com/rtk-rs/celestial-nav"
+repository = "https://github.com/rtk-rs/celestial-nav"
+keywords = ["navigation", "space"]
+categories = ["science", "navigation", "space", "no-std"]
+edition = "2021"
+readme = "README.md"
+
+[features]
+default = ["std"]
+
+std = []
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docrs", "--generate-link-to-definition"]
+
+[build-dependencies]
+
+[dependencies]
+geo = "0.29"
+nalgebra = "0.33"
+# itertools = "0.13"
+hifitime = { version = "4", features = [], default-features = false }
+
+[dev-dependencies]
+image = "0.25.5"
