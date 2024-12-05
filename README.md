@@ -1,7 +1,7 @@
 Celestial NAV
 =============
 
-[![crates.io](https://img.shields.io/crates/v/rinex.svg)](https://crates.io/crates/celestial-nav)
+[![crates.io](https://img.shields.io/crates/v/celestial-nav.svg)](https://crates.io/crates/celestial-nav)
 [![crates.io](https://docs.rs/celestial-nav/badge.svg)](https://docs.rs/celestial-nav/badge.svg)
 
 `Celestial-NAV` is a pure rust library that aims at providing celestial navigation by means
