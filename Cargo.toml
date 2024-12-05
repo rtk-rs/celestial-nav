@@ -7,7 +7,7 @@ description = "Celestial navigation library"
 homepage = "https://github.com/rtk-rs/celestial-nav"
 repository = "https://github.com/rtk-rs/celestial-nav"
 keywords = ["navigation", "space"]
-categories = ["science", "navigation", "space", "no-std"]
+categories = ["science", "science::geo", "no-std"]
 edition = "2021"
 readme = "README.md"
 
